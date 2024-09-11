@@ -1,0 +1,43 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --greenyellow: #adff2f;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: ease-in-out 0.5s;
+}
+
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    list-style-type: square;
+}
+
+.light{
+    --bg: var(--white);
+    --text: var(--black);
+    --brcr: var(--greenyellow);
+}
+
+.dark{
+    --bg: var(--black);
+    --text: var(--greenyellow);
+    --brcr: aqua;
+    --brbg:var(--white);
+}
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color: var(--brcr);
+    background-color: var(--brbg);
+    color: black;
+    cursor: pointer;
+}
+
